@@ -1,0 +1,8 @@
+#!/bin/bash
+
+function today {
+ echo "Today's date is:"
+ date +"%A, %B %-d, %Y"
+}
+
+echo today
